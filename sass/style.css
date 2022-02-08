@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1f2f6;
+}
+
+body h1 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px 0;
+  color: #222f3e;
+  text-decoration: underline;
+}
+
+body .contain {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #c8d6e5;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 25px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .contain .gambar1, body .contain .gambar2, body .contain .gambar3, body .contain .gambar4, body .contain .gambar5, body .contain .gambar6 {
+  background-color: white;
+  margin: 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body .contain .gambar1 figure, body .contain .gambar2 figure, body .contain .gambar3 figure, body .contain .gambar4 figure, body .contain .gambar5 figure, body .contain .gambar6 figure {
+  border: 1px solid #222f3e;
+  padding: 5px;
+}
+
+body .contain .gambar1 figure img, body .contain .gambar2 figure img, body .contain .gambar3 figure img, body .contain .gambar4 figure img, body .contain .gambar5 figure img, body .contain .gambar6 figure img {
+  width: 270px;
+}
+
+body .contain .gambar1 figure img:hover, body .contain .gambar2 figure img:hover, body .contain .gambar3 figure img:hover, body .contain .gambar4 figure img:hover, body .contain .gambar5 figure img:hover, body .contain .gambar6 figure img:hover {
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+  cursor: pointer;
+}
+
+body .contain .gambar1 figure figcaption, body .contain .gambar2 figure figcaption, body .contain .gambar3 figure figcaption, body .contain .gambar4 figure figcaption, body .contain .gambar5 figure figcaption, body .contain .gambar6 figure figcaption {
+  text-align: center;
+  color: #222f3e;
+}
+/*# sourceMappingURL=style.css.map */

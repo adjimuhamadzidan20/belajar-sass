@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$warna-bg   : #f1f2f6;
+$warna-contain : #c8d6e5;
+$warna-wrapp : white;
+$warna-text-border : #222f3e;
+
+body {
+    background-color: $warna-bg;
+
+    h1 {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 20px 0;
+        color: $warna-text-border;
+        text-decoration: underline;
+    }
+
+    .contain {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        background-color: $warna-contain;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 25px 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-sizing: border-box;
+    
+        .gambar1, .gambar2, .gambar3, .gambar4, .gambar5, .gambar6 {
+            background-color: $warna-wrapp;
+            margin: 10px;
+            transition: 0.2s;
+            
+            figure {
+                border: 1px solid $warna-text-border;
+                padding: 5px;
+    
+                img {
+                    width: 270px;
+                }
+
+                img:hover {
+                    filter: brightness(70%);
+                    cursor: pointer;
+                }
+    
+                figcaption {
+                    text-align: center;
+                    color: $warna-text-border;
+                }
+            }
+        }
+    }
+}
+
